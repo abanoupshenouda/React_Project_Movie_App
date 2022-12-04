@@ -1,0 +1,48 @@
+.header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+.headerLogo {
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: rotateInfinite 8s linear;
+    float: left;
+}
+
+@keyframes rotateInfinite {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.BtnLogin {
+    float: right;
+    padding-left: 50px;
+    
+}
+
+
+.Modal {
+    position: absolute;
+    left:30%;
+    top:20%;
+    right: 30%;
+    bottom: 30%;
+    
+  }
+
+  .Overlay {
+    position: fixed;
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    border:#222 ;
+    border-radius: 5px;
+  }

@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: 'row';
+    text-align: 'center'
+}
+
+.textField {
+    width: 200;
+}
+
+.formControl {
+    width: 240px;
+}
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}

@@ -1,0 +1,61 @@
+.homeHeader {
+    background-color: #ff9999;
+    height: 25px;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    height: 50%;
+}
+
+.grid-container:before,
+.grid-container:after {
+    content: '';
+    width: 10px;
+}
+
+.grid-item {
+    font-size: 1.15rem;
+    padding: 5px;
+
+}
+
+.movieImg {
+    height: 200px;
+    width: 200px;
+}
+
+.gridListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.gridList {
+    flex-wrap: nowrap;
+}
+
+.mainContent{
+    display: flex;
+}
+.releasedMoviesSection{
+    width: 76%;
+    padding: 5px;
+}
+
+.releasedMoviesSection img:hover{
+    cursor: pointer;
+}
+
+.filterMoviesSection{
+    width: 24%;
+    padding: 5px;
+}
